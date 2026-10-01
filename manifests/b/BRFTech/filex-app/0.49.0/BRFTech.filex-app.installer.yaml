@@ -30,7 +30,6 @@ ProductCode: af48dd76-2015-5c31-806d-7410b4687915
 AppsAndFeaturesEntries:
 - DisplayName: filex 0.49.0
   Publisher: BRF Tech
-  DisplayVersion: 0.49.0
   ProductCode: af48dd76-2015-5c31-806d-7410b4687915
 Installers:
 - Architecture: x64
