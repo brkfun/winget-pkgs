@@ -1,0 +1,43 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: BRFTech.filex-app
+PackageVersion: 0.51.0
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+InstallerSwitches:
+  Upgrade: --updated
+  Custom: /currentuser
+UpgradeBehavior: install
+Protocols:
+- filex
+FileExtensions:
+- docx
+- doc
+- xlsx
+- xls
+- pptx
+- ppt
+- odt
+- ods
+- odp
+- rtf
+ProductCode: af48dd76-2015-5c31-806d-7410b4687915
+AppsAndFeaturesEntries:
+- DisplayName: filex 0.51.0
+  Publisher: BRF Tech
+  ProductCode: af48dd76-2015-5c31-806d-7410b4687915
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/BRF-Tech/filex/releases/download/v0.51.0/filex-desktop-x64.exe
+  InstallerSha256: 17E3915499CC6A71EE79947C6C7AB2049110F9BEB1F45F419097B598B7F8B67A
+- Architecture: arm64
+  InstallerUrl: https://github.com/BRF-Tech/filex/releases/download/v0.51.0/filex-desktop-arm64.exe
+  InstallerSha256: 3C37F72BD6CE6CB918B2D3D3FF03942DE912947F6F237E2AB115924BBFC553C1
+ManifestType: installer
+ManifestVersion: 1.12.0
+ReleaseDate: 2026-10-04
